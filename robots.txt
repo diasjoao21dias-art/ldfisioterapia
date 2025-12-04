@@ -1,0 +1,21 @@
+# robots.txt for LDFisioterapia
+# https://ldfisioterapia.com.br
+
+User-agent: *
+Allow: /
+
+# Sitemap location
+Sitemap: https://ldfisioterapia.com.br/sitemap.xml
+
+# Crawl-delay for respectful crawling
+Crawl-delay: 1
+
+# Block common bot paths
+Disallow: /admin/
+Disallow: /private/
+Disallow: /*.json$
+
+# Allow important resources
+Allow: /style.css
+Allow: /script.js
+Allow: /favicon.svg
